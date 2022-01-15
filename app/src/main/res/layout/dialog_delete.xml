@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:background="#172738"
+    android:layout_height="350dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="50dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/avt"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/dailog_delete_hoten"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Họ Tên"
+        android:textSize="30dp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/dailog_delete_email"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Email"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/dailog_delete_diachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:text="Địa chỉ"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/dailog_delete_btnOut"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:background="@drawable/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/dailog_delete_btndelete"
+            android:layout_weight="1"
+            android:text="Delete"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
